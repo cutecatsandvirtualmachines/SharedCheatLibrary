@@ -1,0 +1,431 @@
+﻿  Installing vcpkg dependencies to C:\Users\tartar\source\repos\WarwickDavis\vcpkg_installed\x64-windows-static\
+  "C:\Users\tartar\Documents\vcpkg\vcpkg.exe" install "--host-triplet=x64-windows-static" --x-wait-for-lock --triplet "x64-windows-static" --vcpkg-root "C:\Users\tartar\Documents\vcpkg\\" "--x-manifest-root=C:\Users\tartar\source\repos\WarwickDavis\\" "--x-install-root=C:\Users\tartar\source\repos\WarwickDavis\vcpkg_installed\x64-windows-static\\" 
+  Detecting compiler hash for triplet x64-windows-static...
+  The following packages will be removed:
+      boost-build:x64-windows
+      boost-modular-build-helper:x64-windows
+      boost-uninstall:x64-windows
+      pkgconf:x64-windows
+      vcpkg-cmake:x64-windows
+      vcpkg-cmake-config:x64-windows
+      vcpkg-cmake-get-vars:x64-windows
+      vcpkg-pkgconfig-get-modules:x64-windows
+      vcpkg-tool-meson:x64-windows
+  The following packages will be rebuilt:
+      argparse:x64-windows-static -> 2.9
+      asmjit:x64-windows-static -> 2023-03-25
+    * boost-algorithm:x64-windows-static -> 1.83.0
+    * boost-asio:x64-windows-static -> 1.83.0
+    * boost-chrono:x64-windows-static -> 1.83.0
+    * boost-container:x64-windows-static -> 1.83.0
+    * boost-context:x64-windows-static -> 1.83.0
+    * boost-coroutine:x64-windows-static -> 1.83.0
+    * boost-date-time:x64-windows-static -> 1.83.0
+    * boost-exception:x64-windows-static -> 1.83.0
+    * boost-lexical-cast:x64-windows-static -> 1.83.0
+    * boost-range:x64-windows-static -> 1.83.0
+    * boost-regex:x64-windows-static -> 1.83.0
+    * boost-system:x64-windows-static -> 1.83.0
+    * brotli:x64-windows-static -> 1.0.9#5
+    * bzip2[core,tool]:x64-windows-static -> 1.0.8#5
+      capnproto:x64-windows-static -> 1.0.1
+      cli:x64-windows-static -> 2.1.0
+      cpr[core,ssl]:x64-windows-static -> 1.10.2+3
+      curl[core,non-http,schannel,ssl,sspi]:x64-windows-static -> 8.2.1
+    * fmt:x64-windows-static -> 10.1.1
+      freetype[brotli,bzip2,core,png,zlib]:x64-windows-static -> 2.12.1#3
+    * libpng:x64-windows-static -> 1.6.39#1
+    * libpq[core,lz4,openssl,zlib]:x64-windows-static -> 15.3#2
+      libpqxx:x64-windows-static -> 7.7.4
+      libsodium:x64-windows-static -> 1.0.18#9
+    * lz4:x64-windows-static -> 1.9.4#1
+      openssl:x64-windows-static -> 3.1.3
+      recast:x64-windows-static -> deprecated
+    * recastnavigation:x64-windows-static -> 1.6.0
+      spdlog:x64-windows-static -> 1.12.0
+    * zlib:x64-windows-static -> 1.3
+    * zycore:x64-windows-static -> 1.3.0#1
+      zydis:x64-windows-static -> 4.0.0#1
+  The following packages will be built and installed:
+    * boost-build:x64-windows-static -> 1.83.0
+    * boost-modular-build-helper:x64-windows-static -> 1.83.0
+    * pkgconf:x64-windows-static -> 1.8.0#5
+    * vcpkg-cmake:x64-windows-static -> 2023-05-04
+    * vcpkg-cmake-config:x64-windows-static -> 2022-02-06#1
+    * vcpkg-cmake-get-vars:x64-windows-static -> 2023-03-02
+    * vcpkg-pkgconfig-get-modules:x64-windows-static -> 2023-09-06
+    * vcpkg-tool-meson:x64-windows-static -> 0.63
+  Additional packages (*) will be modified to complete this operation.
+  Restored 42 package(s) from C:\Users\tartar\AppData\Local\vcpkg\archives in 11 s. Use --debug to see more details.
+  Removing 1/85 argparse:x64-windows-static
+  Elapsed time to handle argparse:x64-windows-static: 4.93 ms
+  Removing 2/85 zydis:x64-windows-static
+C:\Users\tartar\Documents\vcpkg\scripts\buildsystems\msbuild\vcpkg.targets(183,5): warning : error: remove("C:\Users\tartar\source\repos\WarwickDavis\vcpkg_installed\x64-windows-static\x64-windows-static/lib/Zydis.lib"): The process cannot access the file because it is being used by another process.
+  Elapsed time to handle zydis:x64-windows-static: 18.7 ms
+  Removing 3/85 zycore:x64-windows-static
+C:\Users\tartar\Documents\vcpkg\scripts\buildsystems\msbuild\vcpkg.targets(183,5): warning : error: remove("C:\Users\tartar\source\repos\WarwickDavis\vcpkg_installed\x64-windows-static\x64-windows-static/lib/Zycore.lib"): The process cannot access the file because it is being used by another process.
+  Elapsed time to handle zycore:x64-windows-static: 15.1 ms
+  Removing 4/85 asmjit:x64-windows-static
+C:\Users\tartar\Documents\vcpkg\scripts\buildsystems\msbuild\vcpkg.targets(183,5): warning : error: remove("C:\Users\tartar\source\repos\WarwickDavis\vcpkg_installed\x64-windows-static\x64-windows-static/lib/asmjit.lib"): The process cannot access the file because it is being used by another process.
+  Elapsed time to handle asmjit:x64-windows-static: 22.7 ms
+  Removing 5/85 cpr:x64-windows-static
+C:\Users\tartar\Documents\vcpkg\scripts\buildsystems\msbuild\vcpkg.targets(183,5): warning : error: remove("C:\Users\tartar\source\repos\WarwickDavis\vcpkg_installed\x64-windows-static\x64-windows-static/lib/cpr.lib"): The process cannot access the file because it is being used by another process.
+  Elapsed time to handle cpr:x64-windows-static: 24.3 ms
+  Removing 6/85 recast:x64-windows-static
+  Elapsed time to handle recast:x64-windows-static: 3.03 ms
+  Removing 7/85 recastnavigation:x64-windows-static
+C:\Users\tartar\Documents\vcpkg\scripts\buildsystems\msbuild\vcpkg.targets(183,5): warning : error: remove("C:\Users\tartar\source\repos\WarwickDavis\vcpkg_installed\x64-windows-static\x64-windows-static/lib/DebugUtils.lib"): The process cannot access the file because it is being used by another process.
+C:\Users\tartar\Documents\vcpkg\scripts\buildsystems\msbuild\vcpkg.targets(183,5): warning : error: remove("C:\Users\tartar\source\repos\WarwickDavis\vcpkg_installed\x64-windows-static\x64-windows-static/lib/Detour.lib"): The process cannot access the file because it is being used by another process.
+C:\Users\tartar\Documents\vcpkg\scripts\buildsystems\msbuild\vcpkg.targets(183,5): warning : error: remove("C:\Users\tartar\source\repos\WarwickDavis\vcpkg_installed\x64-windows-static\x64-windows-static/lib/DetourCrowd.lib"): The process cannot access the file because it is being used by another process.
+C:\Users\tartar\Documents\vcpkg\scripts\buildsystems\msbuild\vcpkg.targets(183,5): warning : error: remove("C:\Users\tartar\source\repos\WarwickDavis\vcpkg_installed\x64-windows-static\x64-windows-static/lib/DetourTileCache.lib"): The process cannot access the file because it is being used by another process.
+C:\Users\tartar\Documents\vcpkg\scripts\buildsystems\msbuild\vcpkg.targets(183,5): warning : error: remove("C:\Users\tartar\source\repos\WarwickDavis\vcpkg_installed\x64-windows-static\x64-windows-static/lib/Recast.lib"): The process cannot access the file because it is being used by another process.
+  Elapsed time to handle recastnavigation:x64-windows-static: 17.2 ms
+  Removing 8/85 spdlog:x64-windows-static
+C:\Users\tartar\Documents\vcpkg\scripts\buildsystems\msbuild\vcpkg.targets(183,5): warning : error: remove("C:\Users\tartar\source\repos\WarwickDavis\vcpkg_installed\x64-windows-static\x64-windows-static/lib/spdlog.lib"): The process cannot access the file because it is being used by another process.
+  Elapsed time to handle spdlog:x64-windows-static: 39.7 ms
+  Removing 9/85 fmt:x64-windows-static
+C:\Users\tartar\Documents\vcpkg\scripts\buildsystems\msbuild\vcpkg.targets(183,5): warning : error: remove("C:\Users\tartar\source\repos\WarwickDavis\vcpkg_installed\x64-windows-static\x64-windows-static/lib/fmt.lib"): The process cannot access the file because it is being used by another process.
+  Elapsed time to handle fmt:x64-windows-static: 14.6 ms
+  Removing 10/85 libsodium:x64-windows-static
+C:\Users\tartar\Documents\vcpkg\scripts\buildsystems\msbuild\vcpkg.targets(183,5): warning : error: remove("C:\Users\tartar\source\repos\WarwickDavis\vcpkg_installed\x64-windows-static\x64-windows-static/lib/libsodium.lib"): The process cannot access the file because it is being used by another process.
+  Elapsed time to handle libsodium:x64-windows-static: 36.1 ms
+  Removing 11/85 libpqxx:x64-windows-static
+C:\Users\tartar\Documents\vcpkg\scripts\buildsystems\msbuild\vcpkg.targets(183,5): warning : error: remove("C:\Users\tartar\source\repos\WarwickDavis\vcpkg_installed\x64-windows-static\x64-windows-static/lib/pqxx.lib"): The process cannot access the file because it is being used by another process.
+  Elapsed time to handle libpqxx:x64-windows-static: 56.2 ms
+  Removing 12/85 libpq:x64-windows-static
+C:\Users\tartar\Documents\vcpkg\scripts\buildsystems\msbuild\vcpkg.targets(183,5): warning : error: remove("C:\Users\tartar\source\repos\WarwickDavis\vcpkg_installed\x64-windows-static\x64-windows-static/lib/libecpg.lib"): The process cannot access the file because it is being used by another process.
+C:\Users\tartar\Documents\vcpkg\scripts\buildsystems\msbuild\vcpkg.targets(183,5): warning : error: remove("C:\Users\tartar\source\repos\WarwickDavis\vcpkg_installed\x64-windows-static\x64-windows-static/lib/libecpg_compat.lib"): The process cannot access the file because it is being used by another process.
+C:\Users\tartar\Documents\vcpkg\scripts\buildsystems\msbuild\vcpkg.targets(183,5): warning : error: remove("C:\Users\tartar\source\repos\WarwickDavis\vcpkg_installed\x64-windows-static\x64-windows-static/lib/libpgcommon.lib"): The process cannot access the file because it is being used by another process.
+C:\Users\tartar\Documents\vcpkg\scripts\buildsystems\msbuild\vcpkg.targets(183,5): warning : error: remove("C:\Users\tartar\source\repos\WarwickDavis\vcpkg_installed\x64-windows-static\x64-windows-static/lib/libpgport.lib"): The process cannot access the file because it is being used by another process.
+C:\Users\tartar\Documents\vcpkg\scripts\buildsystems\msbuild\vcpkg.targets(183,5): warning : error: remove("C:\Users\tartar\source\repos\WarwickDavis\vcpkg_installed\x64-windows-static\x64-windows-static/lib/libpgtypes.lib"): The process cannot access the file because it is being used by another process.
+C:\Users\tartar\Documents\vcpkg\scripts\buildsystems\msbuild\vcpkg.targets(183,5): warning : error: remove("C:\Users\tartar\source\repos\WarwickDavis\vcpkg_installed\x64-windows-static\x64-windows-static/lib/libpq.lib"): The process cannot access the file because it is being used by another process.
+  Elapsed time to handle libpq:x64-windows-static: 306 ms
+  Removing 13/85 vcpkg-pkgconfig-get-modules:x64-windows
+  Elapsed time to handle vcpkg-pkgconfig-get-modules:x64-windows: 4.94 ms
+  Removing 14/85 pkgconf:x64-windows
+  Elapsed time to handle pkgconf:x64-windows: 11.8 ms
+  Removing 15/85 vcpkg-tool-meson:x64-windows
+  Elapsed time to handle vcpkg-tool-meson:x64-windows: 246 ms
+  Removing 16/85 lz4:x64-windows-static
+C:\Users\tartar\Documents\vcpkg\scripts\buildsystems\msbuild\vcpkg.targets(183,5): warning : error: remove("C:\Users\tartar\source\repos\WarwickDavis\vcpkg_installed\x64-windows-static\x64-windows-static/lib/lz4.lib"): The process cannot access the file because it is being used by another process.
+  Elapsed time to handle lz4:x64-windows-static: 8.18 ms
+  Removing 17/85 openssl:x64-windows-static
+C:\Users\tartar\Documents\vcpkg\scripts\buildsystems\msbuild\vcpkg.targets(183,5): warning : error: remove("C:\Users\tartar\source\repos\WarwickDavis\vcpkg_installed\x64-windows-static\x64-windows-static/lib/libcrypto.lib"): The process cannot access the file because it is being used by another process.
+C:\Users\tartar\Documents\vcpkg\scripts\buildsystems\msbuild\vcpkg.targets(183,5): warning : error: remove("C:\Users\tartar\source\repos\WarwickDavis\vcpkg_installed\x64-windows-static\x64-windows-static/lib/libssl.lib"): The process cannot access the file because it is being used by another process.
+  Elapsed time to handle openssl:x64-windows-static: 53.7 ms
+  Removing 18/85 freetype:x64-windows-static
+C:\Users\tartar\Documents\vcpkg\scripts\buildsystems\msbuild\vcpkg.targets(183,5): warning : error: remove("C:\Users\tartar\source\repos\WarwickDavis\vcpkg_installed\x64-windows-static\x64-windows-static/lib/freetype.lib"): The process cannot access the file because it is being used by another process.
+  Elapsed time to handle freetype:x64-windows-static: 33.3 ms
+  Removing 19/85 brotli:x64-windows-static
+C:\Users\tartar\Documents\vcpkg\scripts\buildsystems\msbuild\vcpkg.targets(183,5): warning : error: remove("C:\Users\tartar\source\repos\WarwickDavis\vcpkg_installed\x64-windows-static\x64-windows-static/lib/brotlicommon-static.lib"): The process cannot access the file because it is being used by another process.
+C:\Users\tartar\Documents\vcpkg\scripts\buildsystems\msbuild\vcpkg.targets(183,5): warning : error: remove("C:\Users\tartar\source\repos\WarwickDavis\vcpkg_installed\x64-windows-static\x64-windows-static/lib/brotlidec-static.lib"): The process cannot access the file because it is being used by another process.
+C:\Users\tartar\Documents\vcpkg\scripts\buildsystems\msbuild\vcpkg.targets(183,5): warning : error: remove("C:\Users\tartar\source\repos\WarwickDavis\vcpkg_installed\x64-windows-static\x64-windows-static/lib/brotlienc-static.lib"): The process cannot access the file because it is being used by another process.
+  Elapsed time to handle brotli:x64-windows-static: 15.1 ms
+  Removing 20/85 bzip2:x64-windows-static
+C:\Users\tartar\Documents\vcpkg\scripts\buildsystems\msbuild\vcpkg.targets(183,5): warning : error: remove("C:\Users\tartar\source\repos\WarwickDavis\vcpkg_installed\x64-windows-static\x64-windows-static/lib/bz2.lib"): The process cannot access the file because it is being used by another process.
+  Elapsed time to handle bzip2:x64-windows-static: 10.2 ms
+  Removing 21/85 libpng:x64-windows-static
+C:\Users\tartar\Documents\vcpkg\scripts\buildsystems\msbuild\vcpkg.targets(183,5): warning : error: remove("C:\Users\tartar\source\repos\WarwickDavis\vcpkg_installed\x64-windows-static\x64-windows-static/lib/libpng16.lib"): The process cannot access the file because it is being used by another process.
+  Elapsed time to handle libpng:x64-windows-static: 9.25 ms
+  Removing 22/85 curl:x64-windows-static
+C:\Users\tartar\Documents\vcpkg\scripts\buildsystems\msbuild\vcpkg.targets(183,5): warning : error: remove("C:\Users\tartar\source\repos\WarwickDavis\vcpkg_installed\x64-windows-static\x64-windows-static/lib/libcurl.lib"): The process cannot access the file because it is being used by another process.
+  Elapsed time to handle curl:x64-windows-static: 24.2 ms
+  Removing 23/85 cli:x64-windows-static
+  Elapsed time to handle cli:x64-windows-static: 15.9 ms
+  Removing 24/85 boost-asio:x64-windows-static
+  Elapsed time to handle boost-asio:x64-windows-static: 269 ms
+  Removing 25/85 boost-chrono:x64-windows-static
+C:\Users\tartar\Documents\vcpkg\scripts\buildsystems\msbuild\vcpkg.targets(183,5): warning : error: remove("C:\Users\tartar\source\repos\WarwickDavis\vcpkg_installed\x64-windows-static\x64-windows-static/lib/boost_chrono-vc140-mt.lib"): The process cannot access the file because it is being used by another process.
+  Elapsed time to handle boost-chrono:x64-windows-static: 27.3 ms
+  Removing 26/85 boost-coroutine:x64-windows-static
+C:\Users\tartar\Documents\vcpkg\scripts\buildsystems\msbuild\vcpkg.targets(183,5): warning : error: remove("C:\Users\tartar\source\repos\WarwickDavis\vcpkg_installed\x64-windows-static\x64-windows-static/lib/boost_coroutine-vc140-mt.lib"): The process cannot access the file because it is being used by another process.
+  Elapsed time to handle boost-coroutine:x64-windows-static: 15.7 ms
+  Removing 27/85 boost-context:x64-windows-static
+C:\Users\tartar\Documents\vcpkg\scripts\buildsystems\msbuild\vcpkg.targets(183,5): warning : error: remove("C:\Users\tartar\source\repos\WarwickDavis\vcpkg_installed\x64-windows-static\x64-windows-static/lib/boost_context-vc140-mt.lib"): The process cannot access the file because it is being used by another process.
+  Elapsed time to handle boost-context:x64-windows-static: 15.6 ms
+  Removing 28/85 boost-date-time:x64-windows-static
+C:\Users\tartar\Documents\vcpkg\scripts\buildsystems\msbuild\vcpkg.targets(183,5): warning : error: remove("C:\Users\tartar\source\repos\WarwickDavis\vcpkg_installed\x64-windows-static\x64-windows-static/lib/boost_date_time-vc140-mt.lib"): The process cannot access the file because it is being used by another process.
+  Elapsed time to handle boost-date-time:x64-windows-static: 45.8 ms
+  Removing 29/85 boost-algorithm:x64-windows-static
+  Elapsed time to handle boost-algorithm:x64-windows-static: 34.5 ms
+  Removing 30/85 boost-lexical-cast:x64-windows-static
+  Elapsed time to handle boost-lexical-cast:x64-windows-static: 11.6 ms
+  Removing 31/85 boost-container:x64-windows-static
+C:\Users\tartar\Documents\vcpkg\scripts\buildsystems\msbuild\vcpkg.targets(183,5): warning : error: remove("C:\Users\tartar\source\repos\WarwickDavis\vcpkg_installed\x64-windows-static\x64-windows-static/lib/boost_container-vc140-mt.lib"): The process cannot access the file because it is being used by another process.
+  Elapsed time to handle boost-container:x64-windows-static: 48.6 ms
+  Removing 32/85 boost-range:x64-windows-static
+  Elapsed time to handle boost-range:x64-windows-static: 62.2 ms
+  Removing 33/85 boost-exception:x64-windows-static
+C:\Users\tartar\Documents\vcpkg\scripts\buildsystems\msbuild\vcpkg.targets(183,5): warning : error: remove("C:\Users\tartar\source\repos\WarwickDavis\vcpkg_installed\x64-windows-static\x64-windows-static/lib/boost_exception-vc140-mt.lib"): The process cannot access the file because it is being used by another process.
+  Elapsed time to handle boost-exception:x64-windows-static: 14.1 ms
+  Removing 34/85 boost-regex:x64-windows-static
+C:\Users\tartar\Documents\vcpkg\scripts\buildsystems\msbuild\vcpkg.targets(183,5): warning : error: remove("C:\Users\tartar\source\repos\WarwickDavis\vcpkg_installed\x64-windows-static\x64-windows-static/lib/boost_regex-vc140-mt.lib"): The process cannot access the file because it is being used by another process.
+  Elapsed time to handle boost-regex:x64-windows-static: 39.8 ms
+  Removing 35/85 boost-system:x64-windows-static
+C:\Users\tartar\Documents\vcpkg\scripts\buildsystems\msbuild\vcpkg.targets(183,5): warning : error: remove("C:\Users\tartar\source\repos\WarwickDavis\vcpkg_installed\x64-windows-static\x64-windows-static/lib/boost_system-vc140-mt.lib"): The process cannot access the file because it is being used by another process.
+  Elapsed time to handle boost-system:x64-windows-static: 17.8 ms
+  Removing 36/85 boost-build:x64-windows
+  Elapsed time to handle boost-build:x64-windows: 579 ms
+  Removing 37/85 boost-modular-build-helper:x64-windows
+  Elapsed time to handle boost-modular-build-helper:x64-windows: 8.46 ms
+  Removing 38/85 boost-uninstall:x64-windows
+  Elapsed time to handle boost-uninstall:x64-windows: 5.94 ms
+  Removing 39/85 vcpkg-cmake-get-vars:x64-windows
+  Elapsed time to handle vcpkg-cmake-get-vars:x64-windows: 7.22 ms
+  Removing 40/85 capnproto:x64-windows-static
+C:\Users\tartar\Documents\vcpkg\scripts\buildsystems\msbuild\vcpkg.targets(183,5): warning : error: remove("C:\Users\tartar\source\repos\WarwickDavis\vcpkg_installed\x64-windows-static\x64-windows-static/lib/capnp-json.lib"): The process cannot access the file because it is being used by another process.
+C:\Users\tartar\Documents\vcpkg\scripts\buildsystems\msbuild\vcpkg.targets(183,5): warning : error: remove("C:\Users\tartar\source\repos\WarwickDavis\vcpkg_installed\x64-windows-static\x64-windows-static/lib/capnp-rpc.lib"): The process cannot access the file because it is being used by another process.
+C:\Users\tartar\Documents\vcpkg\scripts\buildsystems\msbuild\vcpkg.targets(183,5): warning : error: remove("C:\Users\tartar\source\repos\WarwickDavis\vcpkg_installed\x64-windows-static\x64-windows-static/lib/capnp-websocket.lib"): The process cannot access the file because it is being used by another process.
+C:\Users\tartar\Documents\vcpkg\scripts\buildsystems\msbuild\vcpkg.targets(183,5): warning : error: remove("C:\Users\tartar\source\repos\WarwickDavis\vcpkg_installed\x64-windows-static\x64-windows-static/lib/capnp.lib"): The process cannot access the file because it is being used by another process.
+C:\Users\tartar\Documents\vcpkg\scripts\buildsystems\msbuild\vcpkg.targets(183,5): warning : error: remove("C:\Users\tartar\source\repos\WarwickDavis\vcpkg_installed\x64-windows-static\x64-windows-static/lib/capnpc.lib"): The process cannot access the file because it is being used by another process.
+C:\Users\tartar\Documents\vcpkg\scripts\buildsystems\msbuild\vcpkg.targets(183,5): warning : error: remove("C:\Users\tartar\source\repos\WarwickDavis\vcpkg_installed\x64-windows-static\x64-windows-static/lib/kj-async.lib"): The process cannot access the file because it is being used by another process.
+C:\Users\tartar\Documents\vcpkg\scripts\buildsystems\msbuild\vcpkg.targets(183,5): warning : error: remove("C:\Users\tartar\source\repos\WarwickDavis\vcpkg_installed\x64-windows-static\x64-windows-static/lib/kj-gzip.lib"): The process cannot access the file because it is being used by another process.
+C:\Users\tartar\Documents\vcpkg\scripts\buildsystems\msbuild\vcpkg.targets(183,5): warning : error: remove("C:\Users\tartar\source\repos\WarwickDavis\vcpkg_installed\x64-windows-static\x64-windows-static/lib/kj-http.lib"): The process cannot access the file because it is being used by another process.
+C:\Users\tartar\Documents\vcpkg\scripts\buildsystems\msbuild\vcpkg.targets(183,5): warning : error: remove("C:\Users\tartar\source\repos\WarwickDavis\vcpkg_installed\x64-windows-static\x64-windows-static/lib/kj-test.lib"): The process cannot access the file because it is being used by another process.
+C:\Users\tartar\Documents\vcpkg\scripts\buildsystems\msbuild\vcpkg.targets(183,5): warning : error: remove("C:\Users\tartar\source\repos\WarwickDavis\vcpkg_installed\x64-windows-static\x64-windows-static/lib/kj.lib"): The process cannot access the file because it is being used by another process.
+  Elapsed time to handle capnproto:x64-windows-static: 109 ms
+  Removing 41/85 vcpkg-cmake-config:x64-windows
+  Elapsed time to handle vcpkg-cmake-config:x64-windows: 4.85 ms
+  Removing 42/85 zlib:x64-windows-static
+C:\Users\tartar\Documents\vcpkg\scripts\buildsystems\msbuild\vcpkg.targets(183,5): warning : error: remove("C:\Users\tartar\source\repos\WarwickDavis\vcpkg_installed\x64-windows-static\x64-windows-static/lib/zlib.lib"): The process cannot access the file because it is being used by another process.
+  Elapsed time to handle zlib:x64-windows-static: 10.4 ms
+  Removing 43/85 vcpkg-cmake:x64-windows
+  Elapsed time to handle vcpkg-cmake:x64-windows: 5.89 ms
+  Installing 44/85 vcpkg-cmake-config:x64-windows-static...
+  Elapsed time to handle vcpkg-cmake-config:x64-windows-static: 37.9 ms
+  Installing 45/85 vcpkg-cmake:x64-windows-static...
+  Elapsed time to handle vcpkg-cmake:x64-windows-static: 19.3 ms
+  Installing 46/85 argparse:x64-windows-static...
+  Elapsed time to handle argparse:x64-windows-static: 57.9 ms
+  Installing 47/85 asmjit:x64-windows-static...
+C:\Users\tartar\Documents\vcpkg\scripts\buildsystems\msbuild\vcpkg.targets(183,5): warning : warning: File C:\Users\tartar\source\repos\WarwickDavis\vcpkg_installed\x64-windows-static\x64-windows-static\lib/asmjit.lib was already present and will be overwritten
+C:\Users\tartar\Documents\vcpkg\scripts\buildsystems\msbuild\vcpkg.targets(183,5): warning : error: failed: C:\Users\tartar\source\repos\WarwickDavis\vcpkg_installed\x64-windows-static\x64-windows-static\lib/asmjit.lib: The process cannot access the file because it is being used by another process.
+  Elapsed time to handle asmjit:x64-windows-static: 90.3 ms
+  Installing 48/85 zlib:x64-windows-static...
+C:\Users\tartar\Documents\vcpkg\scripts\buildsystems\msbuild\vcpkg.targets(183,5): warning : warning: File C:\Users\tartar\source\repos\WarwickDavis\vcpkg_installed\x64-windows-static\x64-windows-static\lib/zlib.lib was already present and will be overwritten
+C:\Users\tartar\Documents\vcpkg\scripts\buildsystems\msbuild\vcpkg.targets(183,5): warning : error: failed: C:\Users\tartar\source\repos\WarwickDavis\vcpkg_installed\x64-windows-static\x64-windows-static\lib/zlib.lib: The process cannot access the file because it is being used by another process.
+  Elapsed time to handle zlib:x64-windows-static: 54.9 ms
+  Installing 49/85 capnproto:x64-windows-static...
+C:\Users\tartar\Documents\vcpkg\scripts\buildsystems\msbuild\vcpkg.targets(183,5): warning : warning: File C:\Users\tartar\source\repos\WarwickDavis\vcpkg_installed\x64-windows-static\x64-windows-static\lib/capnp-json.lib was already present and will be overwritten
+C:\Users\tartar\Documents\vcpkg\scripts\buildsystems\msbuild\vcpkg.targets(183,5): warning : error: failed: C:\Users\tartar\source\repos\WarwickDavis\vcpkg_installed\x64-windows-static\x64-windows-static\lib/capnp-json.lib: The process cannot access the file because it is being used by another process.
+C:\Users\tartar\Documents\vcpkg\scripts\buildsystems\msbuild\vcpkg.targets(183,5): warning : warning: File C:\Users\tartar\source\repos\WarwickDavis\vcpkg_installed\x64-windows-static\x64-windows-static\lib/capnp-rpc.lib was already present and will be overwritten
+C:\Users\tartar\Documents\vcpkg\scripts\buildsystems\msbuild\vcpkg.targets(183,5): warning : error: failed: C:\Users\tartar\source\repos\WarwickDavis\vcpkg_installed\x64-windows-static\x64-windows-static\lib/capnp-rpc.lib: The process cannot access the file because it is being used by another process.
+C:\Users\tartar\Documents\vcpkg\scripts\buildsystems\msbuild\vcpkg.targets(183,5): warning : warning: File C:\Users\tartar\source\repos\WarwickDavis\vcpkg_installed\x64-windows-static\x64-windows-static\lib/capnp-websocket.lib was already present and will be overwritten
+C:\Users\tartar\Documents\vcpkg\scripts\buildsystems\msbuild\vcpkg.targets(183,5): warning : error: failed: C:\Users\tartar\source\repos\WarwickDavis\vcpkg_installed\x64-windows-static\x64-windows-static\lib/capnp-websocket.lib: The process cannot access the file because it is being used by another process.
+C:\Users\tartar\Documents\vcpkg\scripts\buildsystems\msbuild\vcpkg.targets(183,5): warning : warning: File C:\Users\tartar\source\repos\WarwickDavis\vcpkg_installed\x64-windows-static\x64-windows-static\lib/capnp.lib was already present and will be overwritten
+C:\Users\tartar\Documents\vcpkg\scripts\buildsystems\msbuild\vcpkg.targets(183,5): warning : error: failed: C:\Users\tartar\source\repos\WarwickDavis\vcpkg_installed\x64-windows-static\x64-windows-static\lib/capnp.lib: The process cannot access the file because it is being used by another process.
+C:\Users\tartar\Documents\vcpkg\scripts\buildsystems\msbuild\vcpkg.targets(183,5): warning : warning: File C:\Users\tartar\source\repos\WarwickDavis\vcpkg_installed\x64-windows-static\x64-windows-static\lib/capnpc.lib was already present and will be overwritten
+C:\Users\tartar\Documents\vcpkg\scripts\buildsystems\msbuild\vcpkg.targets(183,5): warning : error: failed: C:\Users\tartar\source\repos\WarwickDavis\vcpkg_installed\x64-windows-static\x64-windows-static\lib/capnpc.lib: The process cannot access the file because it is being used by another process.
+C:\Users\tartar\Documents\vcpkg\scripts\buildsystems\msbuild\vcpkg.targets(183,5): warning : warning: File C:\Users\tartar\source\repos\WarwickDavis\vcpkg_installed\x64-windows-static\x64-windows-static\lib/kj-async.lib was already present and will be overwritten
+C:\Users\tartar\Documents\vcpkg\scripts\buildsystems\msbuild\vcpkg.targets(183,5): warning : error: failed: C:\Users\tartar\source\repos\WarwickDavis\vcpkg_installed\x64-windows-static\x64-windows-static\lib/kj-async.lib: The process cannot access the file because it is being used by another process.
+C:\Users\tartar\Documents\vcpkg\scripts\buildsystems\msbuild\vcpkg.targets(183,5): warning : warning: File C:\Users\tartar\source\repos\WarwickDavis\vcpkg_installed\x64-windows-static\x64-windows-static\lib/kj-gzip.lib was already present and will be overwritten
+C:\Users\tartar\Documents\vcpkg\scripts\buildsystems\msbuild\vcpkg.targets(183,5): warning : error: failed: C:\Users\tartar\source\repos\WarwickDavis\vcpkg_installed\x64-windows-static\x64-windows-static\lib/kj-gzip.lib: The process cannot access the file because it is being used by another process.
+C:\Users\tartar\Documents\vcpkg\scripts\buildsystems\msbuild\vcpkg.targets(183,5): warning : warning: File C:\Users\tartar\source\repos\WarwickDavis\vcpkg_installed\x64-windows-static\x64-windows-static\lib/kj-http.lib was already present and will be overwritten
+C:\Users\tartar\Documents\vcpkg\scripts\buildsystems\msbuild\vcpkg.targets(183,5): warning : error: failed: C:\Users\tartar\source\repos\WarwickDavis\vcpkg_installed\x64-windows-static\x64-windows-static\lib/kj-http.lib: The process cannot access the file because it is being used by another process.
+C:\Users\tartar\Documents\vcpkg\scripts\buildsystems\msbuild\vcpkg.targets(183,5): warning : warning: File C:\Users\tartar\source\repos\WarwickDavis\vcpkg_installed\x64-windows-static\x64-windows-static\lib/kj-test.lib was already present and will be overwritten
+C:\Users\tartar\Documents\vcpkg\scripts\buildsystems\msbuild\vcpkg.targets(183,5): warning : error: failed: C:\Users\tartar\source\repos\WarwickDavis\vcpkg_installed\x64-windows-static\x64-windows-static\lib/kj-test.lib: The process cannot access the file because it is being used by another process.
+C:\Users\tartar\Documents\vcpkg\scripts\buildsystems\msbuild\vcpkg.targets(183,5): warning : warning: File C:\Users\tartar\source\repos\WarwickDavis\vcpkg_installed\x64-windows-static\x64-windows-static\lib/kj.lib was already present and will be overwritten
+C:\Users\tartar\Documents\vcpkg\scripts\buildsystems\msbuild\vcpkg.targets(183,5): warning : error: failed: C:\Users\tartar\source\repos\WarwickDavis\vcpkg_installed\x64-windows-static\x64-windows-static\lib/kj.lib: The process cannot access the file because it is being used by another process.
+  Elapsed time to handle capnproto:x64-windows-static: 185 ms
+  Installing 50/85 vcpkg-cmake-get-vars:x64-windows-static...
+  Elapsed time to handle vcpkg-cmake-get-vars:x64-windows-static: 49.4 ms
+  Installing 51/85 boost-modular-build-helper:x64-windows-static...
+  Elapsed time to handle boost-modular-build-helper:x64-windows-static: 43.7 ms
+  Installing 52/85 boost-build:x64-windows-static...
+  Elapsed time to handle boost-build:x64-windows-static: 739 ms
+  Installing 53/85 boost-system:x64-windows-static...
+C:\Users\tartar\Documents\vcpkg\scripts\buildsystems\msbuild\vcpkg.targets(183,5): warning : warning: File C:\Users\tartar\source\repos\WarwickDavis\vcpkg_installed\x64-windows-static\x64-windows-static\lib/boost_system-vc140-mt.lib was already present and will be overwritten
+C:\Users\tartar\Documents\vcpkg\scripts\buildsystems\msbuild\vcpkg.targets(183,5): warning : error: failed: C:\Users\tartar\source\repos\WarwickDavis\vcpkg_installed\x64-windows-static\x64-windows-static\lib/boost_system-vc140-mt.lib: The process cannot access the file because it is being used by another process.
+  Elapsed time to handle boost-system:x64-windows-static: 61.5 ms
+  Installing 54/85 boost-regex:x64-windows-static...
+C:\Users\tartar\Documents\vcpkg\scripts\buildsystems\msbuild\vcpkg.targets(183,5): warning : warning: File C:\Users\tartar\source\repos\WarwickDavis\vcpkg_installed\x64-windows-static\x64-windows-static\lib/boost_regex-vc140-mt.lib was already present and will be overwritten
+C:\Users\tartar\Documents\vcpkg\scripts\buildsystems\msbuild\vcpkg.targets(183,5): warning : error: failed: C:\Users\tartar\source\repos\WarwickDavis\vcpkg_installed\x64-windows-static\x64-windows-static\lib/boost_regex-vc140-mt.lib: The process cannot access the file because it is being used by another process.
+  Elapsed time to handle boost-regex:x64-windows-static: 153 ms
+  Installing 55/85 boost-exception:x64-windows-static...
+C:\Users\tartar\Documents\vcpkg\scripts\buildsystems\msbuild\vcpkg.targets(183,5): warning : warning: File C:\Users\tartar\source\repos\WarwickDavis\vcpkg_installed\x64-windows-static\x64-windows-static\lib/boost_exception-vc140-mt.lib was already present and will be overwritten
+C:\Users\tartar\Documents\vcpkg\scripts\buildsystems\msbuild\vcpkg.targets(183,5): warning : error: failed: C:\Users\tartar\source\repos\WarwickDavis\vcpkg_installed\x64-windows-static\x64-windows-static\lib/boost_exception-vc140-mt.lib: The process cannot access the file because it is being used by another process.
+  Elapsed time to handle boost-exception:x64-windows-static: 56.5 ms
+  Installing 56/85 boost-range:x64-windows-static...
+  Elapsed time to handle boost-range:x64-windows-static: 150 ms
+  Installing 57/85 boost-container:x64-windows-static...
+C:\Users\tartar\Documents\vcpkg\scripts\buildsystems\msbuild\vcpkg.targets(183,5): warning : warning: File C:\Users\tartar\source\repos\WarwickDavis\vcpkg_installed\x64-windows-static\x64-windows-static\lib/boost_container-vc140-mt.lib was already present and will be overwritten
+C:\Users\tartar\Documents\vcpkg\scripts\buildsystems\msbuild\vcpkg.targets(183,5): warning : error: failed: C:\Users\tartar\source\repos\WarwickDavis\vcpkg_installed\x64-windows-static\x64-windows-static\lib/boost_container-vc140-mt.lib: The process cannot access the file because it is being used by another process.
+  Elapsed time to handle boost-container:x64-windows-static: 146 ms
+  Installing 58/85 boost-lexical-cast:x64-windows-static...
+  Elapsed time to handle boost-lexical-cast:x64-windows-static: 38.3 ms
+  Installing 59/85 boost-algorithm:x64-windows-static...
+  Elapsed time to handle boost-algorithm:x64-windows-static: 90.5 ms
+  Installing 60/85 boost-date-time:x64-windows-static...
+C:\Users\tartar\Documents\vcpkg\scripts\buildsystems\msbuild\vcpkg.targets(183,5): warning : warning: File C:\Users\tartar\source\repos\WarwickDavis\vcpkg_installed\x64-windows-static\x64-windows-static\lib/boost_date_time-vc140-mt.lib was already present and will be overwritten
+C:\Users\tartar\Documents\vcpkg\scripts\buildsystems\msbuild\vcpkg.targets(183,5): warning : error: failed: C:\Users\tartar\source\repos\WarwickDavis\vcpkg_installed\x64-windows-static\x64-windows-static\lib/boost_date_time-vc140-mt.lib: The process cannot access the file because it is being used by another process.
+  Elapsed time to handle boost-date-time:x64-windows-static: 119 ms
+  Installing 61/85 boost-context:x64-windows-static...
+C:\Users\tartar\Documents\vcpkg\scripts\buildsystems\msbuild\vcpkg.targets(183,5): warning : warning: File C:\Users\tartar\source\repos\WarwickDavis\vcpkg_installed\x64-windows-static\x64-windows-static\lib/boost_context-vc140-mt.lib was already present and will be overwritten
+C:\Users\tartar\Documents\vcpkg\scripts\buildsystems\msbuild\vcpkg.targets(183,5): warning : error: failed: C:\Users\tartar\source\repos\WarwickDavis\vcpkg_installed\x64-windows-static\x64-windows-static\lib/boost_context-vc140-mt.lib: The process cannot access the file because it is being used by another process.
+  Elapsed time to handle boost-context:x64-windows-static: 55.4 ms
+  Installing 62/85 boost-coroutine:x64-windows-static...
+C:\Users\tartar\Documents\vcpkg\scripts\buildsystems\msbuild\vcpkg.targets(183,5): warning : warning: File C:\Users\tartar\source\repos\WarwickDavis\vcpkg_installed\x64-windows-static\x64-windows-static\lib/boost_coroutine-vc140-mt.lib was already present and will be overwritten
+C:\Users\tartar\Documents\vcpkg\scripts\buildsystems\msbuild\vcpkg.targets(183,5): warning : error: failed: C:\Users\tartar\source\repos\WarwickDavis\vcpkg_installed\x64-windows-static\x64-windows-static\lib/boost_coroutine-vc140-mt.lib: The process cannot access the file because it is being used by another process.
+  Elapsed time to handle boost-coroutine:x64-windows-static: 53.5 ms
+  Installing 63/85 boost-chrono:x64-windows-static...
+C:\Users\tartar\Documents\vcpkg\scripts\buildsystems\msbuild\vcpkg.targets(183,5): warning : warning: File C:\Users\tartar\source\repos\WarwickDavis\vcpkg_installed\x64-windows-static\x64-windows-static\lib/boost_chrono-vc140-mt.lib was already present and will be overwritten
+C:\Users\tartar\Documents\vcpkg\scripts\buildsystems\msbuild\vcpkg.targets(183,5): warning : error: failed: C:\Users\tartar\source\repos\WarwickDavis\vcpkg_installed\x64-windows-static\x64-windows-static\lib/boost_chrono-vc140-mt.lib: The process cannot access the file because it is being used by another process.
+  Elapsed time to handle boost-chrono:x64-windows-static: 66.3 ms
+  Installing 64/85 boost-asio:x64-windows-static...
+  Elapsed time to handle boost-asio:x64-windows-static: 387 ms
+  Installing 65/85 cli:x64-windows-static...
+  Elapsed time to handle cli:x64-windows-static: 38.6 ms
+  Installing 66/85 curl:x64-windows-static...
+C:\Users\tartar\Documents\vcpkg\scripts\buildsystems\msbuild\vcpkg.targets(183,5): warning : warning: File C:\Users\tartar\source\repos\WarwickDavis\vcpkg_installed\x64-windows-static\x64-windows-static\lib/libcurl.lib was already present and will be overwritten
+C:\Users\tartar\Documents\vcpkg\scripts\buildsystems\msbuild\vcpkg.targets(183,5): warning : error: failed: C:\Users\tartar\source\repos\WarwickDavis\vcpkg_installed\x64-windows-static\x64-windows-static\lib/libcurl.lib: The process cannot access the file because it is being used by another process.
+  Elapsed time to handle curl:x64-windows-static: 40.9 ms
+  Installing 67/85 cpr:x64-windows-static...
+C:\Users\tartar\Documents\vcpkg\scripts\buildsystems\msbuild\vcpkg.targets(183,5): warning : warning: File C:\Users\tartar\source\repos\WarwickDavis\vcpkg_installed\x64-windows-static\x64-windows-static\lib/cpr.lib was already present and will be overwritten
+C:\Users\tartar\Documents\vcpkg\scripts\buildsystems\msbuild\vcpkg.targets(183,5): warning : error: failed: C:\Users\tartar\source\repos\WarwickDavis\vcpkg_installed\x64-windows-static\x64-windows-static\lib/cpr.lib: The process cannot access the file because it is being used by another process.
+  Elapsed time to handle cpr:x64-windows-static: 44.4 ms
+  Installing 68/85 libpng:x64-windows-static...
+C:\Users\tartar\Documents\vcpkg\scripts\buildsystems\msbuild\vcpkg.targets(183,5): warning : warning: File C:\Users\tartar\source\repos\WarwickDavis\vcpkg_installed\x64-windows-static\x64-windows-static\lib/libpng16.lib was already present and will be overwritten
+C:\Users\tartar\Documents\vcpkg\scripts\buildsystems\msbuild\vcpkg.targets(183,5): warning : error: failed: C:\Users\tartar\source\repos\WarwickDavis\vcpkg_installed\x64-windows-static\x64-windows-static\lib/libpng16.lib: The process cannot access the file because it is being used by another process.
+  Elapsed time to handle libpng:x64-windows-static: 410 ms
+  Installing 69/85 bzip2:x64-windows-static...
+C:\Users\tartar\Documents\vcpkg\scripts\buildsystems\msbuild\vcpkg.targets(183,5): warning : warning: File C:\Users\tartar\source\repos\WarwickDavis\vcpkg_installed\x64-windows-static\x64-windows-static\lib/bz2.lib was already present and will be overwritten
+C:\Users\tartar\Documents\vcpkg\scripts\buildsystems\msbuild\vcpkg.targets(183,5): warning : error: failed: C:\Users\tartar\source\repos\WarwickDavis\vcpkg_installed\x64-windows-static\x64-windows-static\lib/bz2.lib: The process cannot access the file because it is being used by another process.
+  Elapsed time to handle bzip2:x64-windows-static: 24.9 ms
+  Installing 70/85 brotli:x64-windows-static...
+C:\Users\tartar\Documents\vcpkg\scripts\buildsystems\msbuild\vcpkg.targets(183,5): warning : warning: File C:\Users\tartar\source\repos\WarwickDavis\vcpkg_installed\x64-windows-static\x64-windows-static\lib/brotlicommon-static.lib was already present and will be overwritten
+C:\Users\tartar\Documents\vcpkg\scripts\buildsystems\msbuild\vcpkg.targets(183,5): warning : error: failed: C:\Users\tartar\source\repos\WarwickDavis\vcpkg_installed\x64-windows-static\x64-windows-static\lib/brotlicommon-static.lib: The process cannot access the file because it is being used by another process.
+C:\Users\tartar\Documents\vcpkg\scripts\buildsystems\msbuild\vcpkg.targets(183,5): warning : warning: File C:\Users\tartar\source\repos\WarwickDavis\vcpkg_installed\x64-windows-static\x64-windows-static\lib/brotlidec-static.lib was already present and will be overwritten
+C:\Users\tartar\Documents\vcpkg\scripts\buildsystems\msbuild\vcpkg.targets(183,5): warning : error: failed: C:\Users\tartar\source\repos\WarwickDavis\vcpkg_installed\x64-windows-static\x64-windows-static\lib/brotlidec-static.lib: The process cannot access the file because it is being used by another process.
+C:\Users\tartar\Documents\vcpkg\scripts\buildsystems\msbuild\vcpkg.targets(183,5): warning : warning: File C:\Users\tartar\source\repos\WarwickDavis\vcpkg_installed\x64-windows-static\x64-windows-static\lib/brotlienc-static.lib was already present and will be overwritten
+C:\Users\tartar\Documents\vcpkg\scripts\buildsystems\msbuild\vcpkg.targets(183,5): warning : error: failed: C:\Users\tartar\source\repos\WarwickDavis\vcpkg_installed\x64-windows-static\x64-windows-static\lib/brotlienc-static.lib: The process cannot access the file because it is being used by another process.
+  Elapsed time to handle brotli:x64-windows-static: 39.3 ms
+  Installing 71/85 freetype:x64-windows-static...
+C:\Users\tartar\Documents\vcpkg\scripts\buildsystems\msbuild\vcpkg.targets(183,5): warning : warning: File C:\Users\tartar\source\repos\WarwickDavis\vcpkg_installed\x64-windows-static\x64-windows-static\lib/freetype.lib was already present and will be overwritten
+C:\Users\tartar\Documents\vcpkg\scripts\buildsystems\msbuild\vcpkg.targets(183,5): warning : error: failed: C:\Users\tartar\source\repos\WarwickDavis\vcpkg_installed\x64-windows-static\x64-windows-static\lib/freetype.lib: The process cannot access the file because it is being used by another process.
+  Elapsed time to handle freetype:x64-windows-static: 65.1 ms
+  Installing 72/85 openssl:x64-windows-static...
+C:\Users\tartar\Documents\vcpkg\scripts\buildsystems\msbuild\vcpkg.targets(183,5): warning : warning: File C:\Users\tartar\source\repos\WarwickDavis\vcpkg_installed\x64-windows-static\x64-windows-static\lib/libcrypto.lib was already present and will be overwritten
+C:\Users\tartar\Documents\vcpkg\scripts\buildsystems\msbuild\vcpkg.targets(183,5): warning : error: failed: C:\Users\tartar\source\repos\WarwickDavis\vcpkg_installed\x64-windows-static\x64-windows-static\lib/libcrypto.lib: The process cannot access the file because it is being used by another process.
+C:\Users\tartar\Documents\vcpkg\scripts\buildsystems\msbuild\vcpkg.targets(183,5): warning : warning: File C:\Users\tartar\source\repos\WarwickDavis\vcpkg_installed\x64-windows-static\x64-windows-static\lib/libssl.lib was already present and will be overwritten
+C:\Users\tartar\Documents\vcpkg\scripts\buildsystems\msbuild\vcpkg.targets(183,5): warning : error: failed: C:\Users\tartar\source\repos\WarwickDavis\vcpkg_installed\x64-windows-static\x64-windows-static\lib/libssl.lib: The process cannot access the file because it is being used by another process.
+  Elapsed time to handle openssl:x64-windows-static: 77 ms
+  Installing 73/85 lz4:x64-windows-static...
+C:\Users\tartar\Documents\vcpkg\scripts\buildsystems\msbuild\vcpkg.targets(183,5): warning : warning: File C:\Users\tartar\source\repos\WarwickDavis\vcpkg_installed\x64-windows-static\x64-windows-static\lib/lz4.lib was already present and will be overwritten
+C:\Users\tartar\Documents\vcpkg\scripts\buildsystems\msbuild\vcpkg.targets(183,5): warning : error: failed: C:\Users\tartar\source\repos\WarwickDavis\vcpkg_installed\x64-windows-static\x64-windows-static\lib/lz4.lib: The process cannot access the file because it is being used by another process.
+  Elapsed time to handle lz4:x64-windows-static: 27.6 ms
+  Installing 74/85 vcpkg-tool-meson:x64-windows-static...
+  Elapsed time to handle vcpkg-tool-meson:x64-windows-static: 389 ms
+  Installing 75/85 pkgconf:x64-windows-static...
+  Elapsed time to handle pkgconf:x64-windows-static: 33.5 ms
+  Installing 76/85 vcpkg-pkgconfig-get-modules:x64-windows-static...
+  Elapsed time to handle vcpkg-pkgconfig-get-modules:x64-windows-static: 27.8 ms
+  Installing 77/85 libpq:x64-windows-static...
+C:\Users\tartar\Documents\vcpkg\scripts\buildsystems\msbuild\vcpkg.targets(183,5): warning : warning: File C:\Users\tartar\source\repos\WarwickDavis\vcpkg_installed\x64-windows-static\x64-windows-static\lib/libecpg.lib was already present and will be overwritten
+C:\Users\tartar\Documents\vcpkg\scripts\buildsystems\msbuild\vcpkg.targets(183,5): warning : warning: File C:\Users\tartar\source\repos\WarwickDavis\vcpkg_installed\x64-windows-static\x64-windows-static\lib/libecpg_compat.lib was already present and will be overwritten
+C:\Users\tartar\Documents\vcpkg\scripts\buildsystems\msbuild\vcpkg.targets(183,5): warning : warning: File C:\Users\tartar\source\repos\WarwickDavis\vcpkg_installed\x64-windows-static\x64-windows-static\lib/libpgcommon.lib was already present and will be overwritten
+C:\Users\tartar\Documents\vcpkg\scripts\buildsystems\msbuild\vcpkg.targets(183,5): warning : warning: File C:\Users\tartar\source\repos\WarwickDavis\vcpkg_installed\x64-windows-static\x64-windows-static\lib/libpgport.lib was already present and will be overwritten
+C:\Users\tartar\Documents\vcpkg\scripts\buildsystems\msbuild\vcpkg.targets(183,5): warning : warning: File C:\Users\tartar\source\repos\WarwickDavis\vcpkg_installed\x64-windows-static\x64-windows-static\lib/libpgtypes.lib was already present and will be overwritten
+C:\Users\tartar\Documents\vcpkg\scripts\buildsystems\msbuild\vcpkg.targets(183,5): warning : warning: File C:\Users\tartar\source\repos\WarwickDavis\vcpkg_installed\x64-windows-static\x64-windows-static\lib/libpq.lib was already present and will be overwritten
+  Elapsed time to handle libpq:x64-windows-static: 570 ms
+  Installing 78/85 libpqxx:x64-windows-static...
+C:\Users\tartar\Documents\vcpkg\scripts\buildsystems\msbuild\vcpkg.targets(183,5): warning : warning: File C:\Users\tartar\source\repos\WarwickDavis\vcpkg_installed\x64-windows-static\x64-windows-static\lib/pqxx.lib was already present and will be overwritten
+  Elapsed time to handle libpqxx:x64-windows-static: 158 ms
+  Installing 79/85 libsodium:x64-windows-static...
+C:\Users\tartar\Documents\vcpkg\scripts\buildsystems\msbuild\vcpkg.targets(183,5): warning : warning: File C:\Users\tartar\source\repos\WarwickDavis\vcpkg_installed\x64-windows-static\x64-windows-static\lib/libsodium.lib was already present and will be overwritten
+  Elapsed time to handle libsodium:x64-windows-static: 111 ms
+  Installing 80/85 recastnavigation:x64-windows-static...
+C:\Users\tartar\Documents\vcpkg\scripts\buildsystems\msbuild\vcpkg.targets(183,5): warning : warning: File C:\Users\tartar\source\repos\WarwickDavis\vcpkg_installed\x64-windows-static\x64-windows-static\lib/DebugUtils.lib was already present and will be overwritten
+C:\Users\tartar\Documents\vcpkg\scripts\buildsystems\msbuild\vcpkg.targets(183,5): warning : warning: File C:\Users\tartar\source\repos\WarwickDavis\vcpkg_installed\x64-windows-static\x64-windows-static\lib/Detour.lib was already present and will be overwritten
+C:\Users\tartar\Documents\vcpkg\scripts\buildsystems\msbuild\vcpkg.targets(183,5): warning : warning: File C:\Users\tartar\source\repos\WarwickDavis\vcpkg_installed\x64-windows-static\x64-windows-static\lib/DetourCrowd.lib was already present and will be overwritten
+C:\Users\tartar\Documents\vcpkg\scripts\buildsystems\msbuild\vcpkg.targets(183,5): warning : warning: File C:\Users\tartar\source\repos\WarwickDavis\vcpkg_installed\x64-windows-static\x64-windows-static\lib/DetourTileCache.lib was already present and will be overwritten
+C:\Users\tartar\Documents\vcpkg\scripts\buildsystems\msbuild\vcpkg.targets(183,5): warning : warning: File C:\Users\tartar\source\repos\WarwickDavis\vcpkg_installed\x64-windows-static\x64-windows-static\lib/Recast.lib was already present and will be overwritten
+  Elapsed time to handle recastnavigation:x64-windows-static: 98.6 ms
+  Installing 81/85 recast:x64-windows-static...
+  Elapsed time to handle recast:x64-windows-static: 43.2 ms
+  Installing 82/85 fmt:x64-windows-static...
+C:\Users\tartar\Documents\vcpkg\scripts\buildsystems\msbuild\vcpkg.targets(183,5): warning : warning: File C:\Users\tartar\source\repos\WarwickDavis\vcpkg_installed\x64-windows-static\x64-windows-static\lib/fmt.lib was already present and will be overwritten
+  Elapsed time to handle fmt:x64-windows-static: 83.1 ms
+  Installing 83/85 spdlog:x64-windows-static...
+C:\Users\tartar\Documents\vcpkg\scripts\buildsystems\msbuild\vcpkg.targets(183,5): warning : warning: File C:\Users\tartar\source\repos\WarwickDavis\vcpkg_installed\x64-windows-static\x64-windows-static\lib/spdlog.lib was already present and will be overwritten
+  Elapsed time to handle spdlog:x64-windows-static: 267 ms
+  Installing 84/85 zycore:x64-windows-static...
+C:\Users\tartar\Documents\vcpkg\scripts\buildsystems\msbuild\vcpkg.targets(183,5): warning : warning: File C:\Users\tartar\source\repos\WarwickDavis\vcpkg_installed\x64-windows-static\x64-windows-static\lib/Zycore.lib was already present and will be overwritten
+  Elapsed time to handle zycore:x64-windows-static: 104 ms
+  Installing 85/85 zydis:x64-windows-static...
+C:\Users\tartar\Documents\vcpkg\scripts\buildsystems\msbuild\vcpkg.targets(183,5): warning : warning: File C:\Users\tartar\source\repos\WarwickDavis\vcpkg_installed\x64-windows-static\x64-windows-static\lib/Zydis.lib was already present and will be overwritten
+  Elapsed time to handle zydis:x64-windows-static: 189 ms
+  Total install time: 7.8 s
+  argparse provides CMake targets:
+  
+    # this is heuristically generated, and may not be correct
+    find_package(argparse CONFIG REQUIRED)
+    target_link_libraries(main PRIVATE argparse::argparse)
+  
+  asmjit provides CMake targets:
+  
+    # this is heuristically generated, and may not be correct
+    find_package(asmjit CONFIG REQUIRED)
+    target_link_libraries(main PRIVATE asmjit::asmjit)
+  
+  capnproto provides CMake targets:
+  
+    # this is heuristically generated, and may not be correct
+    find_package(CapnProto CONFIG REQUIRED)
+    # note: 6 additional targets are not displayed.
+    target_link_libraries(main PRIVATE CapnProto::kj CapnProto::capnp CapnProto::capnpc CapnProto::kj-gzip)
+  
+  cli provides CMake targets:
+  
+    # this is heuristically generated, and may not be correct
+    find_package(cli CONFIG REQUIRED)
+    target_link_libraries(main PRIVATE cli::cli)
+  
+  curl provides CMake targets:
+  
+    # this is heuristically generated, and may not be correct
+    find_package(CURL CONFIG REQUIRED)
+    target_link_libraries(main PRIVATE CURL::libcurl)
+  
+  cpr provides CMake targets:
+  
+    # this is heuristically generated, and may not be correct
+    find_package(cpr CONFIG REQUIRED)
+    target_link_libraries(main PRIVATE cpr::cpr)
+  
+  freetype is compatible with built-in CMake targets:
+  
+      find_package(Freetype REQUIRED)
+      target_link_libraries(main PRIVATE Freetype::Freetype) # since CMake 3.10
+  
+  The package openssl is compatible with built-in CMake targets:
+  
+      find_package(OpenSSL REQUIRED)
+      target_link_libraries(main PRIVATE OpenSSL::SSL OpenSSL::Crypto)
+  
+  libpqxx provides CMake targets:
+  
+    # this is heuristically generated, and may not be correct
+    find_package(libpqxx CONFIG REQUIRED)
+    target_link_libraries(main PRIVATE libpqxx::pqxx)
+  
+  libsodium provides CMake targets:
+  
+    # this is heuristically generated, and may not be correct
+    find_package(unofficial-sodium CONFIG REQUIRED)
+    target_link_libraries(main PRIVATE unofficial-sodium::sodium)
+  
+  The package spdlog provides CMake targets:
+  
+      find_package(spdlog CONFIG REQUIRED)
+      target_link_libraries(main PRIVATE spdlog::spdlog)
+  
+      # Or use the header-only version
+      find_package(spdlog CONFIG REQUIRED)
+      target_link_libraries(main PRIVATE spdlog::spdlog_header_only)
+  
+  zydis provides CMake targets:
+  
+    # this is heuristically generated, and may not be correct
+    find_package(zydis CONFIG REQUIRED)
+    target_link_libraries(main PRIVATE Zydis::Zydis)
+  
